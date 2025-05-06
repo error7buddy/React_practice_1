@@ -40,7 +40,7 @@ export const navbarLinks = [
             {
                 label: "Reservation",
                 icon: UserCheck,
-                path: "/verified-customers",
+                path: "/Reservation",
             },
         ],
     },

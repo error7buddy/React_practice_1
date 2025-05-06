@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/contexts/theme-context";
 
 import Layout from "@/routes/layout";
 import DashboardPage from "@/routes/dashboard/page";
+import Reservation from "./constants/Reservation";
 
 function App() {
     const router = createBrowserRouter([
@@ -32,8 +33,8 @@ function App() {
                     element: <h1 className="title">New Customer</h1>,
                 },
                 {
-                    path: "verified-customers",
-                    element: <h1 className="title">Verified Customers</h1>,
+                    path: "reservation",
+                    element: <Reservation/>,
                 },
                 {
                     path: "products",
